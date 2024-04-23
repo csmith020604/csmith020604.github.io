@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colby Smith | Projects</title>
+    <link rel="stylesheet" href="style-project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });
+</script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><span><a href="index-home.html">Colby Smith</a></span></li>
+                <li><a href="index-home.html">Home</a></li>
+                <li><a href="index-projects.html">Projects</a></li>
+                <li><a href="index-skills.html">Skills</a></li>
+                <li><a href="index-contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content1">
+        <div class="image1"><a href="https://github.com/csmith020604/AsuraTech-Project" target="_blank"><img src="/csmith020604.github.io/Index/attachments/new_project_latest.png" alt="Latest Project Image" id="lp-img1"></a></div>
+        <div class="title1">AsuraTech</div>
+        <div class="desc1">A simple dynamic tech products page.<br>This project uses REACT, CSS, and JS.</div>
+        <div class="date1">April 11th, 2024</div>
+    </div>
+    <div class="content2">
+        <div class="image1"><a href="https://github.com/csmith020604/Duck-Game" target="_blank"><img src="/csmith020604.github.io/Index/attachments/Duck_Game.png" alt="Duck Game Image" id="lp-img1"></a></div>
+        <div class="title1">DuckGame</div>
+        <div class="desc1">This game is a work in progress. It is a clicking game<br>that showcases some JS<br>This project uses REACT, CSS, and JS.</div>
+        <div class="date1">April 14th, 2024</div>
+    </div>
+    <div class="content3">
+        <div class="image1"><img src="/csmith020604.github.io/Index/attachments/Login_Register.png" alt="AsuraTech Image"></div>
+        <div class="coming_soon">Coming Soon... </div>
+        <div class="title1">Register/Login DB Storage</div>
+        <div class="desc1">A simple register and login page that highlights my ability<br>to store information from a user into a database.<br>This project uses REACT, CSS, and JS.</div>
+        <div class="date1">N/A</div>
+    </div>
+
+    <script src="script-project.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colby Smith | Contact</title>
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });
+</script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><span><a href="index-home.html">Colby Smith</a></span></li>
+                <li><a href="index-home.html">Home</a></li>
+                <li><a href="index-projects.html">Projects</a></li>
+                <li><a href="index-skills.html">Skills</a></li>
+                <li><a href="index-contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Get in touch</h1>
+        <input type="text" name="Name" placeholder="Name">
+        <input type="email" name="Email" placeholder="Email">
+        <input type="text" name="number" placeholder="Phone Number">
+        <input type="textarea" name="response" class="response" placeholder="Message">
+        <button type="submit">Send</button>
+    </div>
+
+    <div class="info">
+        <p>Hard work and discipline are what got me this for.
+            Those same things will get me where I want to be in the future.
+            Life is full of suprises and that is just one thing we cant avoid.
+            Make the best out of every sitution so that you can live
+            your life to the fullest.
+        </p>
+        <a href="https://www.linkedin.com/in/colby-smith-167887299/" target="_blank"><img src="/csmith020604.github.io/Index/attachments/linkedin.png" alt="Linkedin"></a>
+        <a href="https://github.com/csmith020604" target="_blank"><img src="/csmith020604.github.io/Index/attachments/github.png" alt="GitHub"></a>
+    </div>
+
+    <script src="script-contact.js"></script>
+</body>
+</html>

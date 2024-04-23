@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.teahub.io/photos/full/138-1384611_black-blue-blur-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(64, 255, 47);
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a.active{
+    color: rgb(64, 255, 47);
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    padding: 30px 30px 0px 0px;
+    margin-right: 60px;
+}
+
+nav ul span{
+    position: relative;
+    display: flex;
+    right: 650px;
+}
+
+nav{
+    position: relative;
+}
+
+.container{
+    position: relative;
+    visibility: visible;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(93, 93, 93);
+    left: 15%;
+    top: 140px;
+}
+
+.container h1{
+    color: rgb(64, 255, 47);
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-family: "Poppins", sans-serif;
+    cursor: default;
+}
+
+input{
+    position: relative;
+    display: flex;
+    top: 20px;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    background-color: rgba(118, 118, 118, 0.537);
+    border: solid 1px rgb(64, 255, 47);
+    left: 40px;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+.response{
+    height: 100px;
+}
+
+::placeholder{
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+button{
+    position: relative;
+    display: flex;
+    top: 10px;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgba(118, 118, 118, 0.537);
+    border: solid 1px rgb(64, 255, 47);
+    left: 135px;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+.info p{
+    width: 600px;
+    float: right;
+    position: relative;
+    color: white;
+    font-size: 1.4rem;
+    bottom: 419px;
+    right: 180px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.info img{
+    position: relative;
+    display: inline;
+    width: 200px;
+    margin-right: 40px;
+    float: right;
+    left: 360px;
+    bottom: 200px;
+    cursor: pointer;
+}

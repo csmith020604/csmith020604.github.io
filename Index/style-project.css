@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.teahub.io/photos/full/138-1384611_black-blue-blur-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(64, 255, 47);
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a.active{
+    color: rgb(64, 255, 47);
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    padding: 30px 30px 0px 0px;
+    margin-right: 60px;
+}
+
+nav ul span{
+    position: relative;
+    display: flex;
+    right: 650px;
+}
+
+nav{
+    position: relative;
+}
+
+.content1{
+    position: relative;
+    background-color: none;
+    margin: auto;
+    top: 15vh;
+    width: 600px;
+    height: 140px;
+    font-family: "Poppins", sans-serif;
+}
+
+.image1 img{
+    position: absolute;
+    width: 300px;
+    border: 3px solid rgb(64, 255, 47);
+    cursor: pointer;
+}
+
+.title1, .desc1, .date1{
+    position: relative;
+    left: 55%;
+}
+
+.title1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(64, 255, 47);
+    cursor: pointer;
+}
+
+.desc1{
+    font-size: 1.2rem;
+    color: white;
+    top: 10px;
+    cursor: default;
+}
+
+.date1{
+    top: 15px;
+    color: rgb(64, 255, 47);
+    cursor: default;
+}
+
+.content2{
+    position: relative;
+    background-color: none;
+    margin: auto;
+    top: 25vh;
+    width: 600px;
+    height: 140px;
+    font-family: "Poppins", sans-serif;
+}
+
+.content3{
+    position: relative;
+    background-color: none;
+    margin: auto;
+    top: 35vh;
+    width: 600px;
+    height: 140px;
+    font-family: "Poppins", sans-serif;
+}
+
+.content3 img{
+    filter: blur(2px) brightness(50%);
+    cursor: default;
+}
+
+.coming_soon{
+    position: absolute;
+    font-size: 2rem;
+    left: 30px;
+    top: 70px;
+    font-weight: 700;
+    color: rgb(64, 255, 47);
+    cursor: default;
+}
+
+.content3 .title1{
+    cursor: default;
+}

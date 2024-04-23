@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colby Smith | Home</title>
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });
+</script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><span><a href="index-home.html">Colby Smith</a></span></li>
+                <li><a href="index-home.html">Home</a></li>
+                <li><a href="index-projects.html">Projects</a></li>
+                <li><a href="index-skills.html">Skills</a></li>
+                <li><a href="index-contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="Screen-1">
+        <h1>Frontend</h1>
+        <h3>Developer</h3>
+        <button type="button" id="resume" onclick="window.open('new_resume.pdf', '_blank')">Resume</button>
+        <button type="button" id="cv">CV</button>
+    </div>
+    <div class="Screen-2">
+        <h2>Learn More About Me</h2>
+        <p>
+            I'm Colby Smith, currently working as a forklift driver at Boise Cascade while pursuing my dream of becoming
+            a front-end developer. Originally from Montgomery, Alabama, I moved to Millbrook at a young age, completed my education, 
+            and decided to embark on a journey towards software engineering.   <span id="span2" onclick="show_Text()">show more</span> <br><br>
+            
+            <span id="span1">Passionate about coding, I find joy in the challenge of expanding my knowledge and skills in the field. I firmly believe 
+            in continuous learning and growth, especially in an ever-evolving industry like tech. My main interests lie in coding, and
+            I dedicate most of my time to honing my skills in this area.<br><br>
+            Currently, my focus is on building a strong foundation in front end development while juggling my responsibilities at work. However, my
+            ultimate goal is to establish myself in the tech world and make a mark as a successful developer. In five years, I
+            envision looking back at my hard work and seeing how it has paid off in a rewarding career.<br><br>
+            Through my learning experiences, I've come to understand the importance of perseverance and breaking down challenges
+            into manageable parts. This approach has enabled me to tackle obstacles head-on and find effective solutions.<br><br>
+            In essence, my journey is defined by my dedication to coding, my aspirations in the tech field, and my ability to
+            navigate challenges with resilience and determination. I am excited about the future opportunities that lie ahead and
+            am committed to continuously growing and evolving in my chosen path.</span>    <span id="span3" onclick="hide_Text()">show less</span>
+        </p>
+    </div>
+    <div id="Screen-3">
+        <div class="LP">
+            <h2 id="lp_h2name">Latest Project</h2>
+            <h3 id="lp_name">Asura<br>Tech</h3>
+            <a href="https://github.com/csmith020604/AsuraTech-Project" target="_blank"><img src="/csmith020604.github.io/Index/attachments/new_project_latest.png" alt="Latest Project Image" id="lp-img1"></a>
+        </div>
+        <div class="SU" id="SU-id">
+            <h2 id="su_h2">Skills Used</h2>
+            <ul id="list">
+                <li>REACT</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script-home.js"></script>
+</body>
+</html>
